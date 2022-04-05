@@ -1,0 +1,44 @@
+.navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: all 1s ease;
+}
+
+.navbar .nav-logo {
+    width: 300px;
+    overflow: hidden;
+    height: 40px;
+
+}
+
+.nav-logo img {
+    width: 100px;
+    object-fit: cover;
+    height: 30px;
+}
+
+.navbar .nav-end {
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.nav-end img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.navbar.nav-bar {
+    background-color: #000;
+}
